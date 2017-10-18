@@ -1,0 +1,182 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {679, 607}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{17, 191}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{265, 288}, {150, 32}}",
+          "uuid" : "8AC18E83-457E-432E-B12C-920103ED7AA4",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "HST 13%",
+          "name" : "label1",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{17, 121}, {310, 41}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{265, 288}, {150, 32}}",
+          "uuid" : "F9BDBB2B-3AC5-4A75-B866-920A0B98C1B8",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "amount topping(1-4)",
+          "name" : "label2",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{17, 38}, {340, 33}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{265, 288}, {150, 32}}",
+          "uuid" : "89B25B0B-50D8-4BE7-A319-F722BED43A7A",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Ask for pizza size",
+          "name" : "label3",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{408, 38}, {200, 33}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{240, 288}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "593DEC9C-2FBA-4C29-84B3-1279DA0C4890",
+          "alignment" : "left",
+          "text" : "",
+          "autocorrection_type" : "default",
+          "name" : "pizza_size_textfield",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{17, 277}, {199, 40}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_touch_up_inside",
+          "frame" : "{{300, 288}, {80, 32}}",
+          "title" : "calculate",
+          "uuid" : "2B64531D-C160-4610-9ABE-6FE98A82654C",
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{408, 121}, {206, 41}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{240, 288}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "48985F2A-0F60-46D5-AFF2-082C2F11F8E8",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "amount_topping_textfield",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{234, 191}, {380, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{240, 288}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "004E9A3F-0382-45C0-BF43-56E39D7592A4",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "sorry_textfield",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{17, 368}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{265, 288}, {150, 32}}",
+          "uuid" : "63E3E8FF-AF23-4D9A-BDF9-378347FB2CF8",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "price",
+          "name" : "label4",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{252, 368}, {212, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{240, 288}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "C924FFAF-1F82-465D-A876-736C8DCB0B02",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "price_textfield",
+          "font_size" : 17
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
